@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--Start Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolled">
+          <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="logo" alt="logo">
+                <div class="logo-text">ATLANTIS SERVICES</div>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html">About us</a>
+                      </li>
+                      <li class="nav-item dropdown active">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Our Services
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="Ship Chandler.html">Ship Chandler</a>
+                              <a class="dropdown-item" href="marine services.html">Marine Services</a>
+                              <a class="dropdown-item .service-active" href="shipping Agency.html">Shipping Agency</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="certificate.html" tabindex="-1" aria-disabled="true">Certificates</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </nav>
+        <!--End Navbar-->
+
+        <!--start first section-->
+        <div class="heading-img-bg">
+            <div class="heading-img-div">
+                <h3 class="heading-img-title"  data-aos="fade-right">MARINE SERVICES</h3>
+                <p class="heading-img-text"  data-aos="fade-left">Our Services</p>
+            </div>
+        </div>
+        <!--end first section-->
+        <br>
+        <br>
+        <section>
+            <div class="container">
+          <div class="bg">
+            <span><h3>Shipping Agency</h3></span>
+              <br>
+              <p>
+              Shipping agency offers a wide range of shipping and logistic services. The company is involved in chartering, port agency, liner agency, Suez Canal transit agency and freight forwarding. We provide reliable and professional services to many reputable ship owners, charters, managers and traders.
+              </p>
+          </div>
+            </div>
+        </section> 
+
+<style>
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+/*  background:#0790C6 ;*/
+ background-image: url(./img/bl.jpg);
+
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.scroll-cards {
+  counter-reset: card;
+  position: relative;
+  display: block;
+  padding-bottom: 60vh;
+}
+
+.scroll-cards > .scroll-cards__item + .scroll-cards__item {
+  margin-top: 30vh;
+}
+
+.scroll-cards h1 {
+  position: sticky;
+  top: 2rem;
+  font-size: 2em;
+  margin: 0 0 0.5em;
+}
+
+.scroll-cards__item {
+  --offset: 0.5em;
+  color: #000;
+  position: sticky;
+  top: max(16vh, 10em);
+  padding: 2em 1.5em;
+  min-height: 19em;
+  background: #fff;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 5 * var(--offset));
+}
+
+h2 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+.scroll-cards__item:nth-of-type(0) {
+  transform: translate(calc((0 - 1) * var(--offset)), calc((0 - 1) * var(--offset)));
+}
+.scroll-cards__item:nth-of-type(1) {
+  transform: translate(calc((1 - 1) * var(--offset)), calc((1 - 1) * var(--offset)));
+}
+.scroll-cards__item:nth-of-type(2) {
+  transform: translate(calc((2 - 1) * var(--offset)), calc((2 - 1) * var(--offset)));
+}
+.scroll-cards__item:nth-of-type(3) {
+  transform: translate(calc((3 - 1) * var(--offset)), calc((3 - 1) * var(--offset)));
+}
+.scroll-cards__item:nth-of-type(4) {
+  transform: translate(calc((4 - 1) * var(--offset)), calc((4 - 1) * var(--offset)));
+}
+.scroll-cards__item:nth-of-type(5) {
+  transform: translate(calc((5 - 1) * var(--offset)), calc((5 - 1) * var(--offset)));
+}
+
+@media screen and (min-width: 37em) {
+  h1 {
+    font-size: 3em;
+  }
+  .scroll-cards__item {
+    --offset: 1em;
+    padding-left: 5em;
+  }
+  .scroll-cards__item:before {
+    counter-increment: card;
+    content: "0" counter(card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75em;
+    height: 2.75em;
+    background: #00bcd4;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.25em;
+    top: 1.25em;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .scroll-cards h1 {
+    font-size: 3em;
+  }
+  .scroll-cards__item {
+    --offset: 1.25em;
+    max-width: 42em;
+  }
+}
+</style>
+
+<br>
+        <br>
+        <br>
+<div class="wrapper">
+  
+  <div class="scroll-cards">
+    <article class="scroll-cards__item" aria-label="Wie - 1">
+        <h2><b>PROTECTIVE AGENCY</b></h2>
+        <hr>
+      <p>As protective agents, we designed services to ensure that your interests are well taken care of. Services that can be performed on request:
+
+            -cargo release against bill of landing
+
+            -cargo damage reporting
+
+            -claims handling
+
+            -draft survey coordination
+
+            -tally supervision
+
+            -cargo survey coordination
+
+            -on/off hire survey coordination
+
+            -rejected cargo follow-up
+
+            -cargo Supervision</p>
+    </article>
+    <article class="scroll-cards__item" aria-label="Wie - 1">
+        <h2><b>HUSBANDRY</b></h2>
+        <hr>
+      <p>When you have a vessel in port, it is important that the husbandry services are
+
+delivered on time and well coordinated with the vessel operation. Services that can be
+
+performed on request
+
+-coordination of booked services
+
+-cash to master
+
+-meet and greet
+
+-crew changed assistance
+
+-medical assistant
+
+-spare parts handling
+
+-bunker delivery coordination
+
+-launch services</p>
+    </article>
+    <article class="scroll-cards__item" aria-label="Wie - 1">
+        <h2><b>PARCELS CUSTOM CLEARANCE</b></h2>
+        <hr>
+      <p>our offices at airport & ports do all necessary to clear your parcels upon
+
+arrival and deliver it on board in shortest possible time to reach your
+
+vessel at the right moment.</p>
+    </article>
+    <article class="scroll-cards__item" aria-label="Wie - 1">
+      <h2><b>MARINE CONSULTATION</b></h2>
+        <hr>
+      <p>Our qualified and expert staff is able to provide customers with any consultations or explanations in respect to the maritime business in Suez Canal area or any Egyptian port.</p>
+    </article>
+    <article class="scroll-cards__item" aria-label="Wie - 1">
+        <h2><b>BROKERAGE & CHARTERING</b></h2>
+        <hr>
+      <p>We render the utmost services to ship owners and shippers, booking spaces or vessels and offering shipments.</p>
+    </article>  
+  </div>
+</div>
+        
+                <!-- Footer  -->
+
+                <footer class="site-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-6 col-md-4">
+                        <h6>CONTACT US</h6>
+                        <ul class="footer-links">
+                          <li><p><i class="fa fa-phone" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> +20572558789</p></li>
+                          <li><p><i class="fa fa-envelope-open-o" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> MOHAMED@YAHOO.COM </p></li>
+                          <li><p><i class="fa fa-location-arrow" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> 9st, El Fanarat, Port Tawfiq, Suez.<br> Portsaid Sokhna, Adabyia, Alexandria,<br> Eldikhila, Damita</p></li>
+                        </ul>
+                      </div>
+            
+                      <div class="col-xs-6 col-md-4">
+                        <h6>COMPANY</h6>
+                        <ul class="footer-links">
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Certificates</a></li>
+                        </ul>
+                      </div>
+            
+                      <div class="col-sm-12 col-md-4">
+                        <h6>About</h6>
+                        <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include.</p>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved
+                        </p>
+                      </div>
+            
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a class="dribbble" href="https://wa.me/00201067799939"><i class="fa fa-whatsapp"></i></a></li>
+                          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
