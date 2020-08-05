@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+/*    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);*/
     min-height: 100vh;
     font: normal 16px sans-serif;
     padding: 60px 0;
@@ -62,4 +62,10 @@ body {
     .container.gallery-container {
         border-radius: 0;
     }
+}
+.heading-img-bg1{
+  background: linear-gradient(#00000070, #00000070), url(img/s.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 498.8px;
 }

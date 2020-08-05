@@ -523,7 +523,7 @@ line-height: 1.9;
 .social-icons li
 {
   display:inline-block;
-  margin-bottom:4px
+  margin-bottom:4px;
 }
 .social-icons li.title
 {
@@ -536,9 +536,9 @@ line-height: 1.9;
 .social-icons a{
   background-color:#eceeef;
   color:#818a91;
-  font-size:16px;
+  font-size:25px;
   display:inline-block;
-  line-height:44px;
+  line-height:50px;
   width:44px;
   height:44px;
   text-align:center;
@@ -558,7 +558,7 @@ line-height: 1.9;
   line-height:34px;
   height:34px;
   width:34px;
-  font-size:14px
+  font-size:10px
 }
 .social-icons a.facebook:hover
 {
