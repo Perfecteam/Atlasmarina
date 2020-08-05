@@ -263,7 +263,7 @@ line-height: 1.9;
   width: 50%;
   margin: auto;
   display: block;
-  
+  padding-top: 20%;
 }
 
 .accordion{
@@ -298,6 +298,10 @@ line-height: 1.9;
   background-position: center center;
   height: 688.4px;
   width: 100%;
+}
+
+.certificate-section .row{
+  margin: 0px;
 }
 
 .certificate-title{
