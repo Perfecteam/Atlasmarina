@@ -609,11 +609,18 @@ line-height: 1.9;
 }
 
 .certification-title-header{
-  color: black;
+  color: white;
   font-size: 60px;
   font-weight: bold;
   padding-top: 190px;
   letter-spacing: 1px;
+}
+
+.heading-img-bg1{
+  background-image: url(../img/7.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 416px;
 }
 
 .heading-img-text{
@@ -766,16 +773,19 @@ line-height: 1.9;
 /*end Marine Services page*/
 /*start Shipping Agency*/
 .bg{
-    position: relative;
-/*    min-height: 10vh;*/
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 312.4px;
+
     padding: 50px 100px;
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#00000070, #00000070), url(../img/contact.jpg);
-    background-size: cover;  
     background-attachment: fixed;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.ship-agancy-div span p{
+  color: #0a0a0a;
 }

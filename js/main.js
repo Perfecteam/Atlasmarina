@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 200) {
+        if (scroll > 70) {
           $(".fixed-top").css("background" , "#2e2e2e");
           $('.logo').css('display', 'none');
           $('.logo-text').css('display', 'inline');
