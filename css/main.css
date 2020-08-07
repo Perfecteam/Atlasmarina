@@ -159,6 +159,9 @@ div{
     .heading-img-text{
       font-size: 13px !important;
     }
+    .brief-img{
+      margin-bottom: 35px;
+    }
 }
   
 @media (min-width: 992px){
@@ -367,7 +370,6 @@ line-height: 1.9;
   color: #383838;
   font-size: 30px;
   font-weight: 700;
-  padding-bottom: 25px;
 }
 
 .about-page span{
@@ -416,9 +418,6 @@ line-height: 1.9;
   color: #9b9b9b;
   line-height: 1.9;
 }
-.brief-img{
-  margin-bottom: 35px;
-}
 
 /* footer */
 
@@ -435,6 +434,11 @@ line-height: 1.9;
   border-top-color:#bbb;
   opacity:0.5
 }
+
+.footer-div{
+  padding-right: 40px;
+}
+
 .site-footer hr.small
 {
   margin:20px 0
@@ -445,6 +449,7 @@ line-height: 1.9;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
+  margin-bottom: 15px;
   letter-spacing:2px
 }
 .site-footer a
@@ -477,6 +482,11 @@ line-height: 1.9;
 .footer-links.inline li
 {
   display:inline-block
+}
+.our-logo{
+  max-width: 60%;
+  display: block;
+  margin: auto;
 }
 .site-footer .social-icons
 {
@@ -536,7 +546,6 @@ line-height: 1.9;
 .social-icons a{
   background-color:#eceeef;
   color:#818a91;
-  font-size:25px;
   display:inline-block;
   line-height:50px;
   width:44px;
@@ -566,13 +575,13 @@ line-height: 1.9;
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#25D366
 }
 .social-icons a.linkedin:hover
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.whatsapp:hover
 {
   background-color:#25D366
 }
@@ -614,13 +623,6 @@ line-height: 1.9;
   font-weight: bold;
   padding-top: 190px;
   letter-spacing: 1px;
-}
-
-.heading-img-bg1{
-  background-image: url(../img/7.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 416px;
 }
 
 .heading-img-text{

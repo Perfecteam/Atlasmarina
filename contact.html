@@ -6,18 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         
         <title>Contact-ATLANTIS MARINE SERVS.</title>
+        <link rel="shortcut icon" type="image/png" href="img/logo.png">
     </head>
     <body>
         <!--Start Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolled">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <div class="container">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" class="logo" alt="logo">
                 <div class="logo-text">ATLANTIS MARINE SERVICES</div>
               </a>
@@ -67,8 +68,8 @@
             </div>
             <br>
             <br>
-            <div class="container-contact">
-                <div class="ContactInfo">
+            <div class="container-contact row">
+                <div class="ContactInfo col-lg-6 col-md-12">
                  <div class="box">
                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                     <div class="text">
@@ -81,6 +82,7 @@
                          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                             <div class="text">
                                 <h3>Phone</h3>
+                                <p>+201111343330</p>
                                 <p>+20623430431</p>
                             </div>   
                          </div>
@@ -88,12 +90,12 @@
                            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
                                <div class="text">
                                 <h3>Email</h3>
-                                <p>atlantisegy@outlook.com </p>
+                                <a href="mailto:atlantisegy@outlook.com" style="color: #ffffff;"><p>atlantisegy@outlook.com</p></a>
                                </div>      
                         </div>
                       </div>
-                        <div class="contactform">
-                            <form action="test.php" method="post">
+                        <div class="contactform col-lg-6 col-md-12">
+                            <form action="#" method="post">
                                 <h2>Send Message</h2>
                                 <div class="inputBox">
                                     <input type="text" name="name" required="required">
@@ -108,62 +110,60 @@
                                     <span>Type Your Message</span>
                                 </div>
                                 <div class="inputBox">
-                                 <input type="submit" name="send" value="send">
+                                 <input type="submit" onclick="sendForm()" name="send" value="send">
                                 </div>
                             </form>
                         </div>
                    </div>
         </section>
 
-                  <!-- Site footer -->
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-md-4">
-            <h6>CONTACT US</h6>
-            <ul class="footer-links">
-              <li><p><i class="fa fa-phone" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> +20572558789</p></li>
-              <li><p><i class="fa fa-envelope-open-o" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> MOHAMED@YAHOO.COM </p></li>
-              <li><p><i class="fa fa-location-arrow" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> 9st, El Fanarat, Port Tawfiq, Suez.<br> Portsaid Sokhna, Adabyia, Alexandria,<br> Eldikhila, Damita</p></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-4">
-            <h6>COMPANY</h6>
-            <ul class="footer-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Certificates</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <h6>About</h6>
-            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include.</p>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="https://wa.me/00201111343330 "><i class="fa fa-whatsapp"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+          <!-- Site footer -->
+          <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+      
+                
+                <div class="col-sm-12 col-md-4 footer-div">
+                  <h6>About</h6>
+                  <p class="text-justify">ATLANTIS MARINE is a general ship chandler and maritime services provider which has established a strong network in other ports in order to mix dynamism and security, trust and professionalism, quality and price.
+                    In compliance to our management policy, ISPS code, IMPA and ISSA Quality standards, our well trained team is ready at any time to meet your specific needs and we welcome your remarks for constant improvement of our services.
+                    In view of this, we are ready to assist all vessels and crew your good company would commit us .</p>
+                </div>
+      
+                <div class="col-xs-6 col-md-4 footer-div">
+                  <h6>CONTACT US</h6>
+                  <ul class="footer-links">
+                    <li><p><i class="fa fa-phone" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i>+201111343330</p></li>
+                    <li><p><i class="fa fa-fax" aria-hidden="true" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i>+20623430431</p></li>
+                    <li><p><i class="fa fa-envelope-open-o" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> <a href="atlantisegy@outlook.com">atlantisegy@outlook.com</a></p></li>
+                    <li><p><i class="fa fa-location-arrow" style="font-size: 16px ;color: #ffffff ;margin-right: 15px ;"></i> 90 street el nail Suez, Egypt<br>portsaid sokhna adabyia Alexandria eldikhila damita ras shuqir </p></li>
+                  </ul>
+                </div>
+      
+                <div class="col-xs-6 col-md-4 footer-div">
+                  <a href="https://www.facebook.com/Perfect-151150445074122"><img src="img/our-logo.png" class="our-logo"></a>
+                  <p style="text-align: center;">Developed by <a href="https://www.facebook.com/Perfect-151150445074122">Perfecteam</a></p>
+              </div>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p class="copyright-text">COPYRIGHT ATLANTIS MARINE All Right Reserved
+                  </p>
+                </div>
+      
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="social-icons">
+                    <li><a href="mailto:atlantisegy@outlook.com"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://wa.me/+201111343330" class="whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/mohamed-lotfi-2b116a60"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
 
         
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
