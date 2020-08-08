@@ -162,6 +162,7 @@ div{
     .brief-img{
       margin-bottom: 35px;
     }
+
 }
   
 @media (min-width: 992px){
@@ -623,6 +624,7 @@ line-height: 1.9;
   font-weight: bold;
   padding-top: 190px;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .heading-img-text{
@@ -778,7 +780,7 @@ line-height: 1.9;
     background-image: url(../img/contact.jpg);
     background-size: cover;
     background-position: center center;
-    height: 312.4px;
+    height: auto;
 
     padding: 50px 100px;
     display: flex;

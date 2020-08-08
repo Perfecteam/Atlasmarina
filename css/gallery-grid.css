@@ -1,7 +1,9 @@
-body {
-    min-height: 100vh;
+body,html {
     font: normal 16px sans-serif;
-    padding: 60px 0;
+}
+
+.section .row{
+    margin: 0px !important;
 }
 
 .container.gallery-container {
@@ -62,9 +64,10 @@ body {
         border-radius: 0;
     }
 }
-.heading-img-bg1{
+.certificate-img{
   background: linear-gradient(#00000070, #00000070), url(../img/s.jpg);
   background-size: cover;
   background-position: center center;
   height: 498.8px;
+  overflow-x: hidden;
 }
